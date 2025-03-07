@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -22,7 +23,7 @@ const HeroSection = () => {
 
 
                 <div
-                    className="col-12 d-block d-lg-none text-center text-white position-relative"
+                    className="col-12 d-block d-lg-none text-center text-white position-relative ml-2"
                     style={{
                         background: "rgba(0,0,0,0.1)",
                         padding: "20px",
@@ -37,7 +38,7 @@ const HeroSection = () => {
                     </p>
                     <div className="d-flex justify-content-center">
                         <button className="btn btn-primary me-3">Book an Appointment</button>
-                        <button className="btn btn-outline-light">Browse Services</button>
+                        <Link href="#" className="btn btn-outline-light text-decoration-none">Browse Services</Link>
                     </div>
                 </div>
 

@@ -6,3 +6,8 @@ export interface Article {
     category: string;
     image: string;
 }
+
+export type NavLinkType = {
+    name: string;
+    path: string;
+};
