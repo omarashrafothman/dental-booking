@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../style/globals.scss";
 import Header from "@/components/navbar/Header";
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={` ${poppins.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
