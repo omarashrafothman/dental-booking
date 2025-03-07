@@ -1,0 +1,6 @@
+@import "../variables.scss";
+
+.articleCard {
+    transition: var(--transition);
+    cursor: pointer;
+}

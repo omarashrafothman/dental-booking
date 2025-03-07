@@ -1,0 +1,23 @@
+@import "./custom.scss";
+@import "./variables.scss";
+@import "./components/ArticlesSection.scss";
+
+
+*,
+::after,
+::before {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
